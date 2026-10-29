@@ -229,6 +229,11 @@ CATS = {
     "recovery": ("🔄", "Recovery", [
         ("snapshot", "Save the current server structure", "Admin"),
         ("recovery", "Restore missing saved objects", "Admin")]),
+  "panic": ("🚨", "Panic Mode", [
+    ("panic", "Check Panic Mode status", "Everyone"),
+    ("panic on", "Activate emergency channel lockdown", "Administrator"),
+    ("panic off", "Restore saved channel permissions", "Administrator"),
+]),
     "tickets": ("🎫", "Tickets", [
         ("ticket", "View ticket help", "Everyone"),
         ("ticket setup", "Post the support ticket panel", "Manage Channels"),
